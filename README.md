@@ -1,8 +1,6 @@
 CSS-module-guide
 ================
 
----
-
 将HTML和CSS通过一定的规则进行分类、组合,以达到特定 HTML、CSS在特定范围内最大程度的复用，这是模块化的核心。
 一个优秀的模块应当具有高度的独立性（非入侵与防入侵）、良好的拓展性。统一可行的规范能保证团队产出优秀的代码，对于降低沟通、多人协作的成本也颇有益处，本文档借鉴了*BEM*/*MVCSS*/*SMACSS*等模块书写规范。
 
@@ -17,9 +15,6 @@ CSS-module-guide
 ## 模块命名规则
 
 <img src="https://cloud.githubusercontent.com/assets/1295348/5585914/09c0bfc6-90f7-11e4-9cd5-0fa4f92e26a9.png" alt="moduleName" style="width:90%;">
-
----
-<br>
 
 
 **命名规则：** `{命名空间}-{模块名}[__子类名]--[扩展类名]`；
